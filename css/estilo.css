@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-left: 50px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.navbar a {
+    font-size: 16px;
+}
+
+.navbar-nav {
+    margin-left: 50px;    
+}
+
+.carro i {    
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+.container {
+    text-align: center;       
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-med-4 {
+    padding: 10px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);    
+    opacity: 0.5;    
+}
+
+.btn-warning {
+    background-color: rgb(255, 204, 3)
+         
+}
+
+.footer {    
+    height: auto;
+    background-color: rgb(48, 48, 48);    
+    text-align: center;
+    color: white;    
+}
+
+.testimonials {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .testimonials .testimonial-item {
+    max-width: 18rem;
+  }
+  .testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+
+footer p {
+    font-size: 16px;    
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer i{
+    font-size: 25px;
+    letter-spacing: 20px;
+}
+
+footer a{
+    color: white;
+}
+
+.container form {
+    margin-left: 20px;
+}
+
+.form-floating {
+    text-align: left;
+}
+
+.jumbotron {
+    background-color: white;
+}
